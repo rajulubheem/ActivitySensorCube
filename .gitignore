@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+
+# Build files
+build/
+dist/
+*.o
+*.a
+*.out
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Log files
+*.log
+
+# Config files with sensitive data
+config.h
+secrets.h
+credentials.h
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Node.js (for web interface if added)
+node_modules/
+npm-debug.log
+
+# Backup files
+*.bak
+*.backup
+*.old
